@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDialPad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial Pad"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnMessangerApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Messanger App"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnEmailApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email App"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnShareApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share App"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>
